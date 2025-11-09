@@ -8458,11 +8458,20 @@ h1, h2, h3, h4, h5,
   color: #000000;
   font-size: 60px; }
 
+  .main-icons i{
+    font-size: 24px;
+    color: #333;
+    margin-top: 70px;
+    margin: 20px;
+    transition: 0.3s;
+  }
+  
+
 .mouse {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 120px;
+  bottom: 40px;
   z-index: 2; }
 
 .mouse-icon {
@@ -9062,7 +9071,8 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
-  position: relative; }
+  position: relative;
+  margin-top: 250px; }
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
